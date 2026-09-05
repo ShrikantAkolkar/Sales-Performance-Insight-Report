@@ -1,225 +1,216 @@
-# 📊 Retail Sales Performance & Insights Dashboard
+📊 Retail Sales Performance & Insights Dashboard
 
-## 📌 Project Overview
+📌 Project Overview
 
-This project is an interactive **Retail Sales Performance & Insights Dashboard** developed using **Microsoft Power BI**.
+This project presents an interactive Retail Sales Performance & Insights Dashboard developed using Microsoft Power BI.
 
-The dashboard analyzes retail sales data to provide insights into **sales, profit, cost, orders, products, categories, regions, cities, sales channels, and monthly performance**.
+The dashboard analyzes retail sales data to deliver comprehensive insights into sales, profit, costs, orders, products, categories, regions, cities, sales channels, and monthly performance.
 
-The goal of this project is to transform raw retail data into meaningful business insights that can help managers make **data-driven decisions**.
-
----
-
-## 🎯 Business Objectives
-
-The dashboard helps answer important business questions such as:
-
-* Which regions generate the highest sales?
-* Which cities generate the highest profit?
-* Which product categories perform best?
-* What are the monthly sales and profit trends?
-* How does weekday performance compare with weekend performance?
-* Which sales channels perform better?
-* What is the overall profit margin?
-* Which products or categories need improvement?
-* What does the future sales trend look like?
+The primary objective is to transform raw retail data into actionable business intelligence that supports informed, data-driven decision-making.
 
 ---
 
-## 🛠️ Tools & Technologies
+🎯 Business Objectives
 
-* **Microsoft Power BI**
-* **Power Query**
-* **DAX (Data Analysis Expressions)**
-* **Microsoft Excel**
-* **Data Cleaning & Transformation**
-* **Data Modeling**
-* **Data Visualization**
-* **Time Intelligence**
-* **Forecasting**
+The dashboard is designed to address key business questions, including:
 
----
-
-## 📊 Dashboard Pages
-
-### 1. Sales Overview
-
-The Sales Overview page provides a high-level summary of the retail business.
-
-### Key KPIs
-
-* Total Sales
-* Total Profit
-* Total Cost
-* Profit Margin %
-* Sales YoY %
-* Total Orders
-
-### Analysis Included
-
-* Region-wise performance
-* Category-wise analysis
-* City-wise sales and profit
-* Monthly sales and profit
-* Weekday vs. weekend analysis
-
-### Dashboard Preview
-
-![Sales Overview](Sales Overview.png)
+- Which regions generate the highest sales?
+- Which cities generate the highest profit?
+- Which product categories perform best?
+- What are the monthly sales and profit trends?
+- How does weekday performance compare with weekend performance?
+- Which sales channels deliver the strongest results?
+- What is the overall profit margin?
+- Which products or categories require improvement?
+- What is the projected future sales trend?
 
 ---
 
-## 2. Sales Channel Performance
+🛠️ Tools & Technologies
 
-This page analyzes sales performance across different sales channels.
-
-### Analysis Includes
-
-* Sales by channel
-* Profit by channel
-* Order performance
-* Channel comparison
-* Sales trends
-
-### Dashboard Preview
-
-![Sales Channel Performance](Sales Channel Performance.png)
+- Microsoft Power BI
+- Power Query
+- DAX (Data Analysis Expressions)
+- Microsoft Excel
+- Data Cleaning and Transformation
+- Data Modeling
+- Data Visualization
+- Time Intelligence
+- Forecasting
 
 ---
 
-## 3. Product Analysis
+📊 Dashboard Pages
 
-This page focuses on product and category-level performance.
+1. Sales Overview
 
-### Analysis Includes
+The Sales Overview page provides a comprehensive summary of overall retail business performance.
 
-* Product sales
-* Product profit
-* Category performance
-* Top-performing products
-* Underperforming products
-* Sales and profit comparison
+Key KPIs
 
-### Dashboard Preview
+- Total Sales
+- Total Profit
+- Total Cost
+- Profit Margin %
+- Sales YoY %
+- Total Orders
 
-![Product Analysis](Product Analysis.png)
+Analysis Included
 
----
+- Regional performance
+- Category-level analysis
+- City-level sales and profit
+- Monthly sales and profit trends
+- Weekday versus weekend performance
 
-## 4. Forecast & Summary
-
-This page provides trend analysis and forecasting to understand potential future sales performance.
-
-### Analysis Includes
-
-* Sales trends
-* Profit trends
-* Historical performance
-* Forecasting
-* Business performance summary
-
-### Dashboard Preview
-
-![Forecast Summary](Forecast Summary.png)
+Dashboard Preview
 
 ---
 
-## 🧮 Data Analysis & DAX
+2. Sales Channel Performance
 
-DAX measures were created to calculate important business KPIs such as:
+This page evaluates sales performance across the organization’s various sales channels.
 
-* Total Sales
-* Total Profit
-* Total Cost
-* Total Orders
-* Profit Margin %
-* Sales YoY %
-* Monthly Sales
-* Monthly Profit
+Analysis Includes
 
-The project also uses a **Date Table** for time-based analysis and time-intelligence calculations.
+- Sales by channel
+- Profit by channel
+- Order performance
+- Channel comparisons
+- Sales trends
+
+Dashboard Preview
 
 ---
 
-## 🔄 Data Preparation
+3. Product Analysis
 
-The data was prepared using **Power Query**.
+This page provides detailed analysis of product- and category-level performance.
 
-The main data preparation steps included:
+Analysis Includes
+
+- Product sales
+- Product profitability
+- Category performance
+- Top-performing products
+- Underperforming products
+- Sales and profit comparisons
+
+Dashboard Preview
+
+---
+
+4. Forecast & Summary
+
+This page presents trend analysis and forecasting to support the evaluation of potential future sales performance.
+
+Analysis Includes
+
+- Sales trends
+- Profit trends
+- Historical performance
+- Forecasting
+- Business performance summary
+
+Dashboard Preview
+
+---
+
+🧮 Data Analysis & DAX
+
+DAX measures were developed to calculate key business performance indicators, including:
+
+- Total Sales
+- Total Profit
+- Total Cost
+- Total Orders
+- Profit Margin %
+- Sales YoY %
+- Monthly Sales
+- Monthly Profit
+
+The project also incorporates a dedicated Date Table to support time-based analysis and time-intelligence calculations.
+
+---
+
+🔄 Data Preparation
+
+The data was prepared and transformed using Power Query.
+
+The primary data preparation steps included:
 
 1. Importing the retail sales dataset
-2. Checking data types
-3. Cleaning missing values
+2. Validating data types
+3. Addressing missing values
 4. Removing unnecessary data
 5. Transforming columns
 6. Creating calculated columns
 7. Creating a Date Table
-8. Building relationships between tables
-9. Creating DAX measures
+8. Establishing relationships between tables
+9. Developing DAX measures
 10. Building interactive Power BI dashboards
 
 ---
 
-## 📈 Key Business Insights
+📈 Key Business Insights
 
-The dashboard can be used to identify:
+The dashboard supports the identification and evaluation of:
 
-* High-performing and low-performing regions
-* High-performing cities
-* Best-performing product categories
-* Monthly sales trends
-* Profitability trends
-* Weekday and weekend order patterns
-* Sales channel performance
-* Products contributing most to revenue and profit
-
----
-
-## 📂 Project Files
-
-| File                                          | Description                             |
-| --------------------------------------------- | --------------------------------------- |
-| `Sales Performance & Insights Dashboard.pbix` | Power BI dashboard project              |
-| `Retail_Sales_Dataset.xlsx`          | Retail sales dataset                    |
-| `Sales Overview.png`                          | Sales Overview dashboard screenshot     |
-| `Sales Channel Performance.png`               | Sales Channel dashboard screenshot      |
-| `Product Analysis.png`                        | Product Analysis dashboard screenshot   |
-| `Forecast Summary.png`                        | Forecast & Summary dashboard screenshot |
+- High- and low-performing regions
+- High-performing cities
+- Best-performing product categories
+- Monthly sales trends
+- Profitability trends
+- Weekday and weekend order patterns
+- Sales channel performance
+- Products contributing most significantly to revenue and profit
 
 ---
 
-## 💡 Skills Demonstrated
+📂 Project Files
 
-**Power BI | DAX | Power Query | Excel | Data Cleaning | Data Transformation | Data Modeling | Business Intelligence | Data Visualization | KPI Development | Sales Analytics | Time-Series Analysis | Forecasting**
-
----
-
-## 🚀 Project Outcome
-
-Developed a multi-page interactive Power BI dashboard that converts raw retail sales data into actionable business insights.
-
-The project demonstrates practical knowledge of **data analytics, business intelligence, dashboard development, DAX calculations, data modeling, and visualization**.
+File| Description
+"Sales Performance & Insights Dashboard.pbix"| Power BI dashboard project
+"Retail_Sales_Dataset.xlsx"| Retail sales dataset
+"Sales Overview.png"| Sales Overview dashboard screenshot
+"Sales Channel Performance.png"| Sales Channel dashboard screenshot
+"Product Analysis.png"| Product Analysis dashboard screenshot
+"Forecast & Summary .png"| Forecast & Summary dashboard screenshot
 
 ---
 
-## 👨‍💻 Author
+💡 Skills Demonstrated
+
+Power BI | DAX | Power Query | Excel | Data Cleaning | Data Transformation | Data Modeling | Business Intelligence | Data Visualization | KPI Development | Sales Analytics | Time-Series Analysis | Forecasting
+
+---
+
+🚀 Project Outcome
+
+Developed a multi-page, interactive Power BI dashboard that transforms raw retail sales data into actionable business insights.
+
+This project demonstrates practical expertise in data analytics, business intelligence, dashboard development, DAX calculations, data modeling, and data visualization.
+
+---
+
+👨‍💻 Author
 
 Shrikant Akolkar
 
-B.tech Data Science Student
+B.Tech Data Science Student
 
-### Skills
+Skills
 
 Power BI • SQL • Python • Excel • Data Analytics • Data Science
 
 ---
 
-## 🔗 Project Repository
+🔗 Project Repository
 
 GitHub Repository:
 
-**[Sales-Performance-Insight-Report]([https://github.com/ShrikantAkolkar/Sales-Performance-Insight-Report])**
+Sales-Performance-Insight-Report
 
 ---
 
-⭐ If you found this project useful, feel free to explore the dashboard and analysis.
+⭐ If you found this project useful, please explore the dashboard and analysis.
