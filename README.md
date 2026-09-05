@@ -180,11 +180,11 @@ The dashboard can be used to identify:
 | File                                          | Description                             |
 | --------------------------------------------- | --------------------------------------- |
 | `Sales Performance & Insights Dashboard.pbix` | Power BI dashboard project              |
-| `Meridian_Retail_Sales_Dataset.xlsx`          | Retail sales dataset                    |
-| `Sales_Overview.png`                          | Sales Overview dashboard screenshot     |
-| `Sales_Channel_Performance.png`               | Sales Channel dashboard screenshot      |
-| `Product_Analysis.png`                        | Product Analysis dashboard screenshot   |
-| `Forecast_Summary.png`                        | Forecast & Summary dashboard screenshot |
+| `Retail_Sales_Dataset.xlsx`          | Retail sales dataset                    |
+| `Sales Overview.png`                          | Sales Overview dashboard screenshot     |
+| `Sales Channel Performance.png`               | Sales Channel dashboard screenshot      |
+| `Product Analysis.png`                        | Product Analysis dashboard screenshot   |
+| `Forecast Summary.png`                        | Forecast & Summary dashboard screenshot |
 
 ---
 
@@ -218,7 +218,7 @@ Power BI • SQL • Python • Excel • Data Analytics • Data Science
 
 GitHub Repository:
 
-**[Retail Sales Performance & Insights Dashboard](https://github.com/)**
+**[Sales-Performance-Insight-Report]([https://github.com/ShrikantAkolkar/Sales-Performance-Insight-Report])**
 
 ---
 
